@@ -53,7 +53,7 @@ body {
 }
 
 .task-checkbox {
-    margin-right: 1rem;
+    margin: 1rem;
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -97,7 +97,7 @@ h2 {
     font-size: 1.2rem;
     cursor: pointer;
     padding: 0.5rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -167,7 +167,7 @@ h2 {
     position: relative;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 .task-item:hover {

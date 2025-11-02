@@ -42,14 +42,14 @@
 .task-description {
     font-size: 1.1rem;
     color: #666;
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
 }
 
 .task-content {
     background-color: #f8f9fa;
     padding: 1.5rem;
     border-radius: 6px;
-    margin-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
 }
 
 .task-content p {

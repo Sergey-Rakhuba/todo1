@@ -156,8 +156,8 @@ const HomePage = () => {
                                     onClick={(e) => handleTaskClick(task, e)}
                                 >
                                     <div className="task-content">
-                                        <div className="task-title">{task.title}</div>
-                                        <div className="task-description">{task.description}</div>
+                                        <div className="task-title"><span>Name:</span>{task.title}</div>
+                                        <div className="task-description"><span>Summary:</span>{task.description}</div>
                                     </div>
                                     <input
                                         type="checkbox"
@@ -195,8 +195,8 @@ const HomePage = () => {
                                     onClick={(e) => handleTaskClick(task, e)}
                                 >
                                     <div className="task-content">
-                                        <div className="task-title">{task.title}</div>
-                                        <div className="task-description">{task.description}</div>
+                                        <div className="task-title"><span>Name:</span>{task.title}</div>
+                                        <div className="task-description"><span>Summary:</span>{task.description}</div>
                                     </div>
                                     <input
                                         type="checkbox"
